@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head><title>My Form</title></head>
+    <form name="Personal" method="get">
+        <input type="text" id="FirstName" name="FirstName">
+        
+        <input type="text" id="LastName" name="LastName">
+        <br>
+            <select id="Gender" name="Gender">
+                <option value="F"> </option>
+                <option value="M"> </option>
+            </select>
+            
+        <input type="text" id="Age" name="Age" size="3">
+        <br>
+        สถานะ
+        <input type="radio" name = "Marry" value = "1" checked> 
+        <input type="radio" name = "Marry" value = "2">
+        <input type="radio" name = "Marry" value = "3">
+        <input type="radio" name = "Marry" value = "4">
+        <br>
+
+        งานอดิเรก
+        <input type="checkbox" name = "Marry" value = "1">เล่นมือถือ
+        <input type="checkbox" name = "Marry" value = "1">อ่านหนังงสือ
+        <input type="checkbox" name = "Marry" value = "1">ดูหนังฟังเพลง
+        <br>
+        
+        <input type="submit" value="ส่ง"> 
+        <input type="reset" value="ลบ">
+
+        </form>
+</html>
