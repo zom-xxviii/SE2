@@ -14,16 +14,22 @@
         <input type="text" id="Age" name="Age" size="3">
         <br>
         สถานะ
-        <input type="radio" name = "Marry" value = "1" checked> 
-        <input type="radio" name = "Marry" value = "2">
-        <input type="radio" name = "Marry" value = "3">
-        <input type="radio" name = "Marry" value = "4">
+        <input type="radio" name = "Marry" value = "1" checked> โสด
+        <input type="radio" name = "Marry" value = "2">แต่งงาน
+        <input type="radio" name = "Marry" value = "3">อย่าร้าง
+        <input type="radio" name = "Marry" value = "4">เป็นหม้าย
         <br>
-
+        รายได้
+        <input type="radio"  value = "1" checked>0-500
+        <input type="radio"  value = "1">501-1000
+        <input type="radio"  value = "1">1000-15000
+        <br>
         งานอดิเรก
         <input type="checkbox" name = "Marry" value = "1">เล่นมือถือ
         <input type="checkbox" name = "Marry" value = "1">อ่านหนังงสือ
         <input type="checkbox" name = "Marry" value = "1">ดูหนังฟังเพลง
+        <input type="checkbox" name = "Single" value = "1">ไปเที่ยว
+        <input type="checkbox" name = "Single" value = "1">นอนเล่น
         <br>
         
         <input type="submit" value="ส่ง"> 
